@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		9CEAA69327A5531F00A694EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAA69227A5531F00A694EB /* AppDelegate.swift */; };
 		9CEAA69527A5531F00A694EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAA69427A5531F00A694EB /* SceneDelegate.swift */; };
-		9CEAA69727A5531F00A694EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAA69627A5531F00A694EB /* ViewController.swift */; };
 		9CEAA69A27A5531F00A694EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEAA69827A5531F00A694EB /* Main.storyboard */; };
 		9CEAA69C27A5531F00A694EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CEAA69B27A5531F00A694EB /* Assets.xcassets */; };
 		9CEAA69F27A5531F00A694EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CEAA69D27A5531F00A694EB /* LaunchScreen.storyboard */; };
+		9CEAA6A927A5582800A694EB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAA6A827A5582800A694EB /* MainViewController.swift */; };
+		9CEAA6AB27A5599000A694EB /* UserActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAA6AA27A5599000A694EB /* UserActionCell.swift */; };
+		9CEAA6AD27A57BC800A694EB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAA6AC27A57BC800A694EB /* ImageViewController.swift */; };
+		9CEAA6AF27A58C8600A694EB /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAA6AE27A58C8600A694EB /* Course.swift */; };
+		9CEAA6B127A6A83200A694EB /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAA6B027A6A83200A694EB /* CoursesViewController.swift */; };
+		9CEAA6B327A6AB6000A694EB /* CourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEAA6B227A6AB6000A694EB /* CourseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9CEAA68F27A5531F00A694EB /* HomeWorkLesson2.10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeWorkLesson2.10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CEAA68F27A5531F00A694EB /* LessonWork2.10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonWork2.10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEAA69227A5531F00A694EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CEAA69427A5531F00A694EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9CEAA69627A5531F00A694EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9CEAA69927A5531F00A694EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9CEAA69B27A5531F00A694EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CEAA69E27A5531F00A694EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CEAA6A027A5531F00A694EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CEAA6A827A5582800A694EB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9CEAA6AA27A5599000A694EB /* UserActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionCell.swift; sourceTree = "<group>"; };
+		9CEAA6AC27A57BC800A694EB /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		9CEAA6AE27A58C8600A694EB /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		9CEAA6B027A6A83200A694EB /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		9CEAA6B227A6AB6000A694EB /* CourseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +50,7 @@
 		9CEAA68627A5531F00A694EB = {
 			isa = PBXGroup;
 			children = (
-				9CEAA69127A5531F00A694EB /* HomeWorkLesson2.10 */,
+				9CEAA69127A5531F00A694EB /* LessonWork2.10 */,
 				9CEAA69027A5531F00A694EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +58,76 @@
 		9CEAA69027A5531F00A694EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CEAA68F27A5531F00A694EB /* HomeWorkLesson2.10.app */,
+				9CEAA68F27A5531F00A694EB /* LessonWork2.10.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9CEAA69127A5531F00A694EB /* HomeWorkLesson2.10 */ = {
+		9CEAA69127A5531F00A694EB /* LessonWork2.10 */ = {
+			isa = PBXGroup;
+			children = (
+				9CEAA6B527A7087600A694EB /* Models */,
+				9CEAA6B727A708E500A694EB /* ViewControllers */,
+				9CEAA6B827A7090300A694EB /* Storyboards */,
+				9CEAA6B427A7027800A694EB /* App */,
+				9CEAA6B627A7089000A694EB /* Resource */,
+			);
+			path = LessonWork2.10;
+			sourceTree = "<group>";
+		};
+		9CEAA6B427A7027800A694EB /* App */ = {
 			isa = PBXGroup;
 			children = (
 				9CEAA69227A5531F00A694EB /* AppDelegate.swift */,
 				9CEAA69427A5531F00A694EB /* SceneDelegate.swift */,
-				9CEAA69627A5531F00A694EB /* ViewController.swift */,
-				9CEAA69827A5531F00A694EB /* Main.storyboard */,
-				9CEAA69B27A5531F00A694EB /* Assets.xcassets */,
-				9CEAA69D27A5531F00A694EB /* LaunchScreen.storyboard */,
 				9CEAA6A027A5531F00A694EB /* Info.plist */,
 			);
-			path = HomeWorkLesson2.10;
+			path = App;
+			sourceTree = "<group>";
+		};
+		9CEAA6B527A7087600A694EB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9CEAA6B227A6AB6000A694EB /* CourseCell.swift */,
+				9CEAA6AE27A58C8600A694EB /* Course.swift */,
+				9CEAA6AA27A5599000A694EB /* UserActionCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9CEAA6B627A7089000A694EB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9CEAA69B27A5531F00A694EB /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9CEAA6B727A708E500A694EB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9CEAA6A827A5582800A694EB /* MainViewController.swift */,
+				9CEAA6B027A6A83200A694EB /* CoursesViewController.swift */,
+				9CEAA6AC27A57BC800A694EB /* ImageViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9CEAA6B827A7090300A694EB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9CEAA69827A5531F00A694EB /* Main.storyboard */,
+				9CEAA69D27A5531F00A694EB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9CEAA68E27A5531F00A694EB /* HomeWorkLesson2.10 */ = {
+		9CEAA68E27A5531F00A694EB /* LessonWork2.10 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9CEAA6A327A5531F00A694EB /* Build configuration list for PBXNativeTarget "HomeWorkLesson2.10" */;
+			buildConfigurationList = 9CEAA6A327A5531F00A694EB /* Build configuration list for PBXNativeTarget "LessonWork2.10" */;
 			buildPhases = (
 				9CEAA68B27A5531F00A694EB /* Sources */,
 				9CEAA68C27A5531F00A694EB /* Frameworks */,
@@ -82,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = HomeWorkLesson2.10;
+			name = LessonWork2.10;
 			productName = HomeWorkLesson2.10;
-			productReference = 9CEAA68F27A5531F00A694EB /* HomeWorkLesson2.10.app */;
+			productReference = 9CEAA68F27A5531F00A694EB /* LessonWork2.10.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9CEAA68A27A5531F00A694EB /* Build configuration list for PBXProject "HomeWorkLesson2.10" */;
+			buildConfigurationList = 9CEAA68A27A5531F00A694EB /* Build configuration list for PBXProject "LessonWork2.10" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9CEAA68E27A5531F00A694EB /* HomeWorkLesson2.10 */,
+				9CEAA68E27A5531F00A694EB /* LessonWork2.10 */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +193,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CEAA69727A5531F00A694EB /* ViewController.swift in Sources */,
+				9CEAA6AF27A58C8600A694EB /* Course.swift in Sources */,
+				9CEAA6B127A6A83200A694EB /* CoursesViewController.swift in Sources */,
+				9CEAA6AB27A5599000A694EB /* UserActionCell.swift in Sources */,
+				9CEAA6A927A5582800A694EB /* MainViewController.swift in Sources */,
+				9CEAA6B327A6AB6000A694EB /* CourseCell.swift in Sources */,
+				9CEAA6AD27A57BC800A694EB /* ImageViewController.swift in Sources */,
 				9CEAA69327A5531F00A694EB /* AppDelegate.swift in Sources */,
 				9CEAA69527A5531F00A694EB /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +351,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q5RV2AMVQ8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWorkLesson2.10/Info.plist;
+				INFOPLIST_FILE = LessonWork2.10/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +362,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bogdan.HomeWorkLesson2-10";
+				PRODUCT_BUNDLE_IDENTIFIER = "LessonWork2-10";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,7 +379,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q5RV2AMVQ8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HomeWorkLesson2.10/Info.plist;
+				INFOPLIST_FILE = LessonWork2.10/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +390,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Bogdan.HomeWorkLesson2-10";
+				PRODUCT_BUNDLE_IDENTIFIER = "LessonWork2-10";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,7 +401,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9CEAA68A27A5531F00A694EB /* Build configuration list for PBXProject "HomeWorkLesson2.10" */ = {
+		9CEAA68A27A5531F00A694EB /* Build configuration list for PBXProject "LessonWork2.10" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CEAA6A127A5531F00A694EB /* Debug */,
@@ -350,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9CEAA6A327A5531F00A694EB /* Build configuration list for PBXNativeTarget "HomeWorkLesson2.10" */ = {
+		9CEAA6A327A5531F00A694EB /* Build configuration list for PBXNativeTarget "LessonWork2.10" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9CEAA6A427A5531F00A694EB /* Debug */,
